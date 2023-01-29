@@ -1,0 +1,194 @@
+/* #order-page {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  input[type="date"],
+  input[type="time"],
+  select {
+    padding: 12px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  #delivery-options {
+    margin-top: 20px;
+  } */
+ .border{
+    border: 2px solid red;
+    background-color: red;
+ }
+  input, label {
+    margin: 5px 5px;
+  }
+  
+  .form-group {
+    margin: 30px auto;
+    width: 450px;
+   
+  }
+  
+  .form-control {
+    float: left;
+  }
+  
+  #inputStreet {
+    width: 100%;
+  }
+  
+  #inputCity {
+    width: 50%;
+  }
+  
+  #inputState {
+    width: 15%;
+  }
+  
+  #inputZip {
+    width: 28%;
+  }
+  
+  #inputCounty {
+    width: 45%;
+  }
+  
+  #inputCountry {
+    width: 50%;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+  *{
+    margin: 3px;
+    padding: 0;
+  }
+  
+  h6{
+    font-weight: 700;
+    font-size: 12px;
+  }
+  
+  h1{
+    font-weight: 700;
+    font-size: 60px;
+  }
+  
+  
+  h4{
+    font-weight: 600;
+    font-size: 25px;
+  }
+  
+  p{
+    font: 16px;
+    margin: 15px 0 20px 0;
+  }
+  
+  .section-p1{
+    padding: 40px 80px;
+  }
+  
+  .section-m1{
+    margin: 40px 0;
+  }
+  
+  button.normal{
+    font-size: 14px;
+    font-weight: 600;
+    padding: 12px 30px;
+    color: black;
+    background-color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+  }
+  
+  
+  body{
+    width: 100%;
+    /* margin: 10px; */
+  }
+  
+  /* Header Start */
+  #header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 8px;
+    background: rgb(205, 219, 236);
+    box-shadow: rgb(166, 216, 231);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+  }
+  
+  #navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  
+  #navbar li{
+    list-style: none;    
+    padding: 4px 10px;
+    position: relative;
+  }
+  
+  #navbar li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+    padding: 10px 10px;
+  }
+  
+  #navbar li a:hover,
+  #navbar li a.active{
+    color: rgb(78, 146, 158);
+    transition: 0.3s ease;
+  }
+  
+  #navbar li a.active::after,
+  #navbar li a:hover::after{
+    content: "";
+    width: 30% ;
+    height: 2px;
+    background: rgb(101, 150, 180);
+    position: absolute;
+    bottom: -4px;
+    left: 25px;
+  }
+  .logo{
+    height: 100px;
+    border-radius: 118px;
+  }
+  
+  
+  
+  #navbar #lg-bag img{
+    height: 23px;
+    width: 23px;
+  }
+  

@@ -1,0 +1,355 @@
+#product-page {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  #product-name {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  #product-image {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  #product-details {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-top: 50px;
+  }
+  
+  #product-price {
+    color: green;
+    font-weight: bold;
+  }
+  
+  #product-available {
+    color: gray;
+  }
+  
+  #add-to-cart-button {
+    background-color: green;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .student h3{
+    text-align: center;
+    font-weight: 800;
+    font-size: 30px;
+    margin: 0;
+}
+
+.img1 h2{
+    /* margin: 0; */
+    font-weight: 600;
+    font-size: 30px;
+    border: 2px solid rgb(12, 11, 11);
+    width:fit-content;
+    border-radius: 20px;
+    background-color:rgb(138, 175, 249);
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+.studentbox img{
+    height:300px;
+    width: 300px;
+
+}
+
+
+.studentbox p{
+    width:300px ;
+    text-align: center;
+    margin-top: 0;
+    display:block;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.studentbox{
+    /* border: 2px solid black; */
+    margin: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+}
+#box{
+    margin-top: 20px;
+    /* padding: 20px; */
+    /* margin: 50px; */
+    border: 2px solid black;
+    margin:10px;
+    border-radius: 20px;
+   
+    
+    
+}
+#box :hover{
+    color: blue;
+    box-shadow: 2px;
+    transition-delay: 0.01sec ease;
+}
+
+
+
+#box img{
+    border-radius: 20px;
+}
+
+#product-details{
+    
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#product1{
+  text-align: center;
+}
+
+#product1 .pro-container{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  flex-wrap: wrap;
+}
+
+#product1 .pro{
+  width: 23%;
+  min-width: 250px;
+  padding: 10px 2px  ;
+  border: 1px solid rgb(169, 184, 206);
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 10px 10px 10px rgb(132, 165, 172);
+  margin: 15px 0;
+  transition: 0.2s ease;
+  position: relative;
+}
+
+#product1 .pro a img{
+  height: 25px;
+  width: 25px;
+}
+
+.bag{
+  display: flex;
+  right: 10px;
+  justify-content: space-between;
+
+}
+
+
+#product1 .pro:hover{
+  box-shadow: 20px 20px 40px rgb(95, 156, 171);
+
+}
+
+#product1 .pro img{
+  width: 90%;
+  border-radius: 20px;
+}
+
+#product1 .pro .des{
+  text-align: start;
+  padding: 10px 18px;
+}
+
+#product1 .pro .des .span{
+  color: gray;
+  font-size: 12px;
+}
+
+#product1 .pro .des h5{
+  margin: 7px 0;
+  color: black;
+  font-size: 15px;
+}
+
+#product1 .pro .des i{
+  font-size: 12px;
+  color: rgb(243, 181, 25);
+}
+
+#product1 .pro .des h4{
+  font-size: 15px;
+  font-weight: 700;
+  color: rgb(64, 132, 169);
+  margin: 7px 0;
+}
+
+#product1 .pro .cart{
+  width: 30px;
+  height: 30px;
+  /* line-height: 40px; */
+  border-radius: 50px;
+  background-color: white;
+  font-weight: 500;
+  color: rgb(67, 110, 128);
+  border: 1px solid skyblue;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+
+
+
+
+
+
+*{
+  margin: 3px;
+  padding: 0;
+}
+
+h6{
+  font-weight: 700;
+  font-size: 12px;
+}
+
+h1{
+  font-weight: 700;
+  font-size:30px;
+}
+
+
+h4{
+  font-weight: 600;
+  font-size: 25px;
+}
+
+p{
+  font: 16px;
+  margin: 15px 0 20px 0;
+}
+
+.section-p1{
+  padding: 40px 80px;
+}
+
+.section-m1{
+  margin: 40px 0;
+}
+
+button.normal{
+  font-size: 14px;
+  font-weight: 600;
+  padding: 12px 30px;
+  color: black;
+  background-color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: 0.2s;
+}
+
+
+body{
+  width: 100%;
+  /* margin: 10px; */
+}
+
+/* Header Start */
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 8px;
+  background: rgb(205, 219, 236);
+  box-shadow: rgb(166, 216, 231);
+  z-index: 999;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+#navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+#navbar li{
+  list-style: none;    
+  padding: 4px 10px;
+  position: relative;
+}
+
+#navbar li a{
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 500;
+  color: black;
+  padding: 10px 10px;
+}
+
+#navbar li a:hover,
+#navbar li a.active{
+  color: rgb(78, 146, 158);
+  transition: 0.3s ease;
+}
+
+#navbar li a.active::after,
+#navbar li a:hover::after{
+  content: "";
+  width: 30% ;
+  height: 2px;
+  background: rgb(101, 150, 180);
+  position: absolute;
+  bottom: -4px;
+  left: 25px;
+}
+.logo{
+  height: 100px;
+  border-radius: 118px;
+}
+
+
+
+#navbar #lg-bag img{
+  height: 23px;
+  width: 23px;
+}
+.center
+{
+  text-align: center;
+  font-size: 100px;
+  text-decoration: underline;
+}
+.center h6{
+  font-size: 
+  30px;
+}
+
+
+.pro img{
+    height: 270px;
+  }
+
+  .des img{
+    height: 2px;
+    width: -2px;
+  }

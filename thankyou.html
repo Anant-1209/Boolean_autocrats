@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       h1 {
+text-align: center;
+        }
+        *{
+    margin: 3px;
+    padding: 0;
+  }
+  
+  h6{
+    font-weight: 700;
+    font-size: 12px;
+  }
+  
+  h1{
+    font-weight: 700;
+    font-size: 60px;
+  }
+  
+  
+  h4{
+    font-weight: 600;
+    font-size: 25px;
+  }
+  
+  p{
+    font: 16px;
+    margin: 15px 0 20px 0;
+  }
+  
+  .section-p1{
+    padding: 40px 80px;
+  }
+  
+  .section-m1{
+    margin: 40px 0;
+  }
+  
+  button.normal{
+    font-size: 14px;
+    font-weight: 600;
+    padding: 12px 30px;
+    color: black;
+    background-color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+  }
+  
+  
+  body{
+    width: 100%;
+    /* margin: 10px; */
+  }
+  
+  /* Header Start */
+  #header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 8px;
+    background: rgb(205, 219, 236);
+    box-shadow: rgb(166, 216, 231);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+  }
+  
+  #navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  
+  #navbar li{
+    list-style: none;    
+    padding: 4px 10px;
+    position: relative;
+  }
+  
+  #navbar li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+    padding: 10px 10px;
+  }
+  
+  #navbar li a:hover,
+  #navbar li a.active{
+    color: rgb(78, 146, 158);
+    transition: 0.3s ease;
+  }
+  
+  #navbar li a.active::after,
+  #navbar li a:hover::after{
+    content: "";
+    width: 30% ;
+    height: 2px;
+    background: rgb(101, 150, 180);
+    position: absolute;
+    bottom: -4px;
+    left: 25px;
+  }
+    </style>
+</head>
+<body>
+    <section id="header">
+        <!-- <div id="logo"><a href="#"><img src="./img/logo.jpeg" class="logo" alt=""></a></div> -->
+        
+
+        <div>
+            <ul id="navbar">
+                <li><a class="active" href="/home.html">Home</a></li>
+                <!-- <li class="dropdown"><a href="user.html">User</a> -->
+                    <!-- <div class="dropdown"> -->
+                        <!-- <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">user
+                        <span class="caret"></span></button> -->
+                        <!-- <ul class="dropdown-menu">
+                          <li><a href="#"></a></li>
+                          <li><a href="#"></a></li> -->
+                          <!-- <li><a href="#">JavaScript</a></li> -->
+                        <!-- </ul>
+                      </div> -->
+            
+                    <!-- <button class="dropbtn">User
+                        <i class="fa fa-caret-down"></i>
+                      </button>
+                      <div class="dropdown-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a> -->
+
+                        <!-- <div class="submenu">
+                            <ul>
+                                <select><li><a href="#">Farmers</a></li></select>
+                                <select><li><a href="#">Customers</a></li></select>
+                            </ul>
+                        </div> -->
+                       
+                <!-- </li> -->
+                <li><a href="/farmer.html">Farmer</a></li>
+                <li><a href="/product.html">products</a></li>
+                
+                <li><a href="about.html">About</a></li>
+                <li><a href="/contact (1).html">Contact</a></li>
+                <!-- <li id="lg-bag"><a href="cart.html"><img src="img/bag.png" alt=""></a></a></li> -->
+                <!-- <a href="#" id="close"><img src="img/cross.png" alt=""></a> -->
+            </ul>
+        </div>
+        <!-- <div id="mobile">
+            <a href="cart.html"><img src="" alt=""></a></li>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div> -->
+        
+    </section>
+    <h1>Thank you for your Feedback Response </h1>
+</body>
+</html>

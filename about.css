@@ -1,0 +1,243 @@
+.head{
+    text-align: center;
+    font-size: 3vw;
+    text-decoration: underline;
+}
+body{
+    background-color: rgb(244, 243, 208);
+}
+.quote{
+    background-color: rgb(243, 146, 146);
+    padding: 2%;
+    border-radius: 2vw;
+    width: 50%;
+    margin: auto;
+    margin-left: 2vw;
+    font-size: 1.5vw;
+    position: relative;
+    right: -9vw;
+}
+.ethnic{
+    position: relative;
+display: flex;
+justify-content: space-between;
+}
+.logo5{
+    width: 25%;
+    position: absolute;
+    right: 2vw;
+    transition: 1s;
+}
+.logo-img{
+    width: 100%;
+}
+.logo5:hover:hover{
+    transform: scale(1.1);
+}
+.quote2{
+    margin: 2% 0;
+    display: flex;
+    justify-content: space-around;
+}
+.logo-img2{
+    width: 100%;
+}
+.logo2{
+    transition: 1s;
+display: flex;
+align-items: center;
+    width: 20%;
+}
+.logo2:hover{
+    transform: scale(1.1);
+}
+.quote2 article{
+    background-color: rgb(185, 185, 234);
+    font-size: 1.5vw;
+    width: 40%;
+    padding: 2%;
+    border-radius: 2vw;
+}
+
+.student h3{
+    text-align: center;
+    font-weight: 800;
+    font-size: 30px;
+    margin: 0;
+}
+
+.img1 h2{
+    /* margin: 0; */
+    font-weight: 600;
+    font-size: 30px;
+    border: 2px solid rgb(12, 11, 11);
+    width:fit-content;
+    border-radius: 20px;
+    background-color:rgb(138, 175, 249);
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+.studentbox img{
+    height:300px;
+    width: 300px;
+
+}
+
+
+.studentbox p{
+    width:300px ;
+    text-align: center;
+    margin-top: 0;
+    display:block;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.studentbox{
+    /* border: 2px solid black; */
+    margin: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+}
+#box{
+    margin-top: 20px;
+    /* padding: 20px; */
+    /* margin: 50px; */
+    border: 2px solid black;
+    margin:10px;
+    border-radius: 20px;
+   
+    
+    
+}
+#box :hover{
+    color: blue;
+    box-shadow: 2px;
+    transition-delay: 0.01sec ease;
+}
+
+
+
+#box img{
+    border-radius: 20px;
+}
+
+
+
+*{
+    margin: 3px;
+    padding: 0;
+  }
+  
+  h6{
+    font-weight: 700;
+    font-size: 12px;
+  }
+  
+  h1{
+    font-weight: 700;
+    font-size: 60px;
+  }
+  
+  
+  h4{
+    font-weight: 600;
+    font-size: 25px;
+  }
+  
+  p{
+    font: 16px;
+    margin: 15px 0 20px 0;
+  }
+  
+  .section-p1{
+    padding: 40px 80px;
+  }
+  
+  .section-m1{
+    margin: 40px 0;
+  }
+  
+  button.normal{
+    font-size: 14px;
+    font-weight: 600;
+    padding: 12px 30px;
+    color: black;
+    background-color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+  }
+  
+  
+  body{
+    width: 100%;
+    /* margin: 10px; */
+  }
+  
+  /* Header Start */
+  #header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 8px;
+    background: rgb(205, 219, 236);
+    box-shadow: rgb(166, 216, 231);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+  }
+  
+  #navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  
+  #navbar li{
+    list-style: none;    
+    padding: 4px 10px;
+    position: relative;
+  }
+  
+  #navbar li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+    padding: 10px 10px;
+  }
+  
+  #navbar li a:hover,
+  #navbar li a.active{
+    color: rgb(78, 146, 158);
+    transition: 0.3s ease;
+  }
+  
+  #navbar li a.active::after,
+  #navbar li a:hover::after{
+    content: "";
+    width: 30% ;
+    height: 2px;
+    background: rgb(101, 150, 180);
+    position: absolute;
+    bottom: -4px;
+    left: 25px;
+  }
+  .logo5{
+    height: 100px;
+    border-radius: 118px;
+  }
+  
+  
+  
+  #navbar #lg-bag img{
+    height: 23px;
+    width: 23px;
+  }
+ 
